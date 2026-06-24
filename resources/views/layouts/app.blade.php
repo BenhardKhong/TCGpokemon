@@ -35,6 +35,76 @@
             background-color:#111827;
             border-bottom:2px solid #ef4444;
         }
+        /* =========================
+   MACHINE DROPDOWN
+========================= */
+
+.machine-dropdown{
+
+    position:relative;
+}
+
+.machine-btn{
+
+    min-width:170px;
+
+    font-weight:bold;
+}
+
+.machine-menu{
+
+    position:absolute;
+
+    top:100%;
+    left:0;
+
+    min-width:240px;
+
+    background:#111827;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    display:none;
+
+    box-shadow:
+    0 10px 25px rgba(
+        0,
+        0,
+        0,
+        .5
+    );
+
+    z-index:99999;
+}
+
+.machine-menu a{
+
+    display:block;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:14px 18px;
+
+    transition:.3s;
+}
+
+.machine-menu a:hover{
+
+    background:#1f2937;
+
+    color:#facc15;
+
+    padding-left:25px;
+}
+
+.machine-dropdown:hover .machine-menu{
+
+    display:block;
+}
 
         /* =========================
            SIDEBAR
@@ -370,6 +440,9 @@
             transform:translateX(5px)
                     scale(1.05);
         }
+
+
+
 
     </style>
 

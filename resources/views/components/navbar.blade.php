@@ -77,48 +77,47 @@
 </div>
 
         <!-- Menu Mesin -->
-        <div class="d-flex gap-2">
 
-            <div class="d-flex gap-2">
+        <div class="d-flex gap-2 align-items-center">
 
-                <!-- 50K -->
+            <div class="machine-dropdown">
 
-                <button class="btn btn-warning"
+                <button class="btn btn-warning machine-btn"
                         onclick="changeMachine(50)">
 
-                    Normal Machine
+                    🎰 Machines
 
                 </button>
 
-                <!-- 150K -->
+                <div class="machine-menu">
 
-                <button class="btn btn-primary"
-                        onclick="changeMachine(150)">
+                    <a href="javascript:void(0)"
+                    onclick="changeMachine(50)">
 
-                    Elite Machine
+                        Normal Machine (50K)
 
-                </button>
+                    </a>
 
-                <!-- 300K -->
+                    <a href="javascript:void(0)"
+                    onclick="changeMachine(150)">
 
-                <button class="btn btn-danger"
-                        onclick="changeMachine(300)">
+                        Elite Machine (150K)
 
-                    Premium Machine
+                    </a>
 
-                </button>
+                    <a href="javascript:void(0)"
+                    onclick="changeMachine(300)">
+
+                        Premium Machine (300K)
+
+                    </a>
+
+                </div>
 
             </div>
 
-            
-
-
-
             <a href="/marketplace"
-            class="
-                    btn
-                    btn-outline-light
-            ">
+            class="btn btn-outline-light">
 
                 🛒 Marketplace
 
